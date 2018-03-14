@@ -6,28 +6,44 @@
     <title>bitbucket-compliance-checker</title>
   </head>
   <body>
-    <nav class="navbar">
-      <a href="#/repositories" class="navbar-item">
-        <div>
-          <span class="icon"><i class="fab fa-bitbucket"></i></span>
-          <span>Repositories</span>
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-menu is-active">
+          <div class="navbar-start">
+            <a href="#/repositories" class="navbar-item">
+              <div>
+                <span class="icon"><i class="fab fa-bitbucket"></i></span>
+                <span>Repositories</span>
+              </div>
+            </a>
+            <a href="#/rules" class="navbar-item">
+              <span class="icon"><i class="far fa-check-circle"></i></span>
+              <span>Rules</span>
+            </a>
+            <a href="#/statistics" class="navbar-item">
+              <span class="icon"><i class="fas fa-chart-line"></i></span>
+              <span>Statistics</span>
+            </a>
+            <a href="#/status" class="navbar-item">
+              <span class="icon"><i class="fas fa-heartbeat"></i></span>
+              <span>Status</span>
+            </a>
+          </div>
+          <div class="navbar-end">
+            <a href="https://github.com/migibert/bitbucket-compliance-checker" class="navbar-item">
+              <span class="icon"><i class="fab fa-github"></i></span>
+              <span>Github</span>
+            </a>
+            <a href="" class="navbar-item">
+              <span class="icon"><i class="fas fa-info-circle"></i></span>
+              <span>About</span>
+            </a>
+          </div>
         </div>
-      </a>
-      <a href="#/rules" class="navbar-item">
-        <span class="icon"><i class="far fa-check-circle"></i></span>
-        <span>Rules</span>
-      </a>
-      <a href="#/statistics" class="navbar-item">
-        <span class="icon"><i class="fas fa-chart-line"></i></span>
-        <span>Statistics</span>
-      </a>
-      <a href="#/status" class="navbar-item">
-        <span class="icon"><i class="fas fa-heartbeat"></i></span>
-        <span>Status</span>
-      </a>
-    </nav>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+      </nav>
+      <div id="app"></div>
+      <!-- built files will be auto injected -->
+    </div>
   </body>
 </html>
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
