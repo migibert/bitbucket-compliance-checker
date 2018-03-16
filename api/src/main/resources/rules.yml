@@ -1,0 +1,22 @@
+credentials:
+  type: oauth
+  client_id: abcde
+  client_secret: 12345
+rules:
+  - id: 1
+    name: Owner is toto
+    type: hard
+    score: 5
+    category: repository
+    operation:
+      key: owner
+      operator: matches
+      value: toto
+  - id: 2
+    name: Code contains tata directory
+    type: soft
+    score: 2
+    category: code
+    operation:
+      key: tata
+      operator: exists
